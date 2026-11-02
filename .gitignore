@@ -205,4 +205,3 @@ cython_debug/
 # Temporary file for partial code execution
 #tempCodeRunnerFile.pydata/
 data/raw/
-data/processed/
