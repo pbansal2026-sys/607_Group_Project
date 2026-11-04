@@ -1,21 +1,21 @@
-Year,Group,Measure,Number of firms,Median (USD millions)
-2021,Private,Revenue,26806,1.03318084596807
-2021,Public,Revenue,477,57.3181939378977
-2022,Private,Revenue,26989,1.19859305863845
-2022,Public,Revenue,478,64.92362203776835
-2023,Private,Revenue,23245,1.60614274553061
-2023,Public,Revenue,478,64.32750771808625
-2024,Private,Revenue,23122,1.633000702347315
-2024,Public,Revenue,479,63.1301938276291
-2025,Private,Revenue,22719,1.75199999944227
-2025,Public,Revenue,479,63.288
-2021,Private,Total assets,33015,2.3388074520632
-2021,Public,Total assets,479,111.517659426689
-2022,Private,Total assets,33042,2.6245174170289
-2022,Public,Total assets,479,110.013563657284
-2023,Private,Total assets,33010,2.72550225438285
-2023,Public,Total assets,479,104.52
-2024,Private,Total assets,32987,2.65595599946024
-2024,Public,Total assets,479,105.734032537937
-2025,Private,Total assets,32902,2.685251917016505
-2025,Public,Total assets,479,118.97557806015
+Year,Measure,Group,Sample Size,Median,Q1,Q3,IQR
+2021,Revenue,Private,26806,1.03,0.16,6.14,5.97
+2021,Revenue,Public,477,57.32,17.83,185.1,167.27
+2022,Revenue,Private,26989,1.2,0.2,7.12,6.92
+2022,Revenue,Public,478,64.92,18.89,190.66,171.78
+2023,Revenue,Private,23245,1.61,0.33,8.15,7.82
+2023,Revenue,Public,478,64.33,17.6,208.61,191.01
+2024,Revenue,Private,23122,1.63,0.33,8.52,8.19
+2024,Revenue,Public,479,63.13,16.13,216.31,200.18
+2025,Revenue,Private,22719,1.75,0.35,9.26,8.91
+2025,Revenue,Public,479,63.29,16.98,234.33,217.36
+2021,Total assets,Private,33015,2.34,0.31,17.9,17.59
+2021,Total assets,Public,479,111.52,38.66,589.36,550.7
+2022,Total assets,Private,33042,2.62,0.36,19.17,18.81
+2022,Total assets,Public,479,110.01,35.9,591.93,556.03
+2023,Total assets,Private,33010,2.73,0.38,19.72,19.34
+2023,Total assets,Public,479,104.52,35.0,621.78,586.77
+2024,Total assets,Private,32987,2.66,0.36,19.49,19.13
+2024,Total assets,Public,479,105.73,34.43,644.52,610.08
+2025,Total assets,Private,32902,2.69,0.36,19.65,19.29
+2025,Total assets,Public,479,118.98,34.52,715.09,680.57

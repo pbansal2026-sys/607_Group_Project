@@ -30,7 +30,17 @@ The project uses company-level data from the Orbis database. The analysis focuse
 
 ## Getting the data
 
-*This section will be completed by the group with the steps used to obtain, export, and place the Orbis dataset in `data/raw/`.*
+```mermaid
+flowchart TD
+    A["Location filter: Singapore"] --> B["Only active firms"]
+    B --> C["Key financials"]
+    C --> D["Operating revenue (Turnover)<br/>absolute, USD million, 2021 to 2025"]
+    D --> E["Total assets<br/>absolute, USD million, 2021 to 2025"]
+    E --> F["Consolidation code"]
+    F --> G["Listing status"]
+    G --> H["Export to Excel (.xlsx)"]
+    H --> I["Save as data/raw/data_million_.xlsx"]
+```
 
 ## Method
 
@@ -39,11 +49,11 @@ The analysis proceeds as follows:
 1. Clean the company-level financial data and document missing, zero, and negative values.
 2. Keep Singaporean firms classified as listed or unlisted.
 3. Reshape the source data into a company-year dataset.
-4. Compare public and private firms separately for each year and financial measure.
+4. Generate descriptive tables, ECDF and box plots for each public and private financial measure.
 5. Run two-sample Kolmogorov-Smirnov tests to assess whether the public and private financial distributions differ.
 6. Calculate annual public-minus-private median differences.
 7. Use bootstrap resampling with a fixed random seed to construct 95% confidence intervals for the median differences.
-8. Generate descriptive tables and figures for the final report.
+
 
 ## Outputs
 
@@ -51,6 +61,7 @@ The project produces:
 
 - Descriptive statistics showing usable sample sizes and annual medians by group
 - KS test statistics and p-values for revenue and total assets
+- KS statistic (D) trend by year for revenue and total assets
 - Annual median differences with 95% bootstrap confidence intervals
 - Distribution plots for public and private firms
 - Line charts of annual group medians
@@ -90,11 +101,10 @@ The project produces:
 
 3. Place the raw dataset in `data/raw/`.
 4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create processed results.
-5. Run `notebooks/Generating_outputs.ipynb` to generate tables and figures in `outputs/`.
 
 ## Data availability
 
-The `data/raw/` and `data/processed/` folders are excluded from Git. This keeps the repository lightweight and prevents the raw dataset and generated intermediate files from being committed. Users running the project must supply the source dataset locally.
+The `data/raw/` and `data/processed/` folders are excluded from Git. This is to prevent uploading licensed ORBIS data into a public platform.
 
 ## Reproducibility
 
