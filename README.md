@@ -39,7 +39,7 @@ flowchart TD
     E --> F["Consolidation code"]
     F --> G["Listing status"]
     G --> H["Export to Excel (.xlsx)"]
-    H --> I["Save as data/raw/data_million_.xlsx"]
+    H --> I["Save as data_million_.xlsx"]
 ```
 
 ## Method
