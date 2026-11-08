@@ -42,6 +42,23 @@ flowchart TD
     H --> I["Save as data_million_.xlsx"]
 ```
 
+## Running the project
+
+1. Create and activate a Python environment.
+2. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Place the raw dataset in `data/raw/`.
+4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create the processed data and output files described above.
+
+## Data availability
+
+The `data/raw/` and `data/processed/` folders are excluded from Git. This is to prevent uploading licensed ORBIS data into a public platform.
+
+
 ## Method
 
 The analysis proceeds as follows:
@@ -105,23 +122,6 @@ The project produces:
 |-- .gitignore
 `-- README.md
 ```
-
-## Running the project
-
-1. Create and activate a Python environment.
-2. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Place the raw dataset in `data/raw/`.
-4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create the processed data and output files described above.
-
-## Data availability
-
-The `data/raw/` and `data/processed/` folders are excluded from Git. This is to prevent uploading licensed ORBIS data into a public platform.
-
 ## Reproducibility
 
 Bootstrap resampling uses a fixed random seed so that results can be reproduced when the same input data and code are used.
