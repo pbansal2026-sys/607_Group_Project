@@ -66,6 +66,7 @@ The project produces:
 - Distribution plots for public and private firms
 - Line charts of annual group medians
 - Confidence-interval plots of annual median differences
+- Final project presentation in [`outputs/presentation/final_presentation.pdf`](outputs/presentation/final_presentation.pdf)
 
 ## Repository structure
 
@@ -95,6 +96,8 @@ The project produces:
 |   |   `-- median_line_charts(log).png
 |   `-- tables/                 # Report-ready statistical tables
 |       `-- descriptive_statistics.csv
+|   `-- presentation/          # Final project presentation
+|       `-- final_presentation.pdf
 |
 |-- requirements.txt            # Python package requirements
 |-- AI_USAGE.md                 # Declaration of generative-AI use
