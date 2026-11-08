@@ -71,23 +71,36 @@ The project produces:
 
 ```text
 .
-├── notebooks/
-│   ├── Wrangle_&_Tests.ipynb
-│   └── Generating_outputs.ipynb
-│
-├── data/
-│   ├── raw/                    # Original dataset; excluded from Git
-│   └── processed/              # Cleaned data and analysis tables; excluded from Git
-│
-├── outputs/
-│   ├── figures/                # Report-ready charts
-│   └── tables/                 # Report-ready statistical tables
-│
-├── requirements.txt            # Python package requirements
-├── AI_USAGE.md                 # Declaration of generative-AI use
-├── CONTRIBUTIONS.md            # Group-member contributions
-├── .gitignore
-└── README.md
+|-- notebooks/
+|   `-- Wrangle_&_Tests.ipynb   # Data cleaning, tests, and output generation
+|
+|-- data/
+|   |-- raw/                    # Original ORBIS Excel files; excluded from Git
+|   |   |-- companies_orbis_results.xlsx
+|   |   `-- data_million_.xlsx
+|   `-- processed/              # Cleaned data and analysis tables; excluded from Git
+|       |-- companies_cleaned_wide.csv
+|       |-- company_year_panel.csv
+|       |-- ks_table.csv
+|       `-- boot_table.csv
+|
+|-- outputs/
+|   |-- figures/                # Report-ready charts
+|   |   |-- ecdf_revenue.png
+|   |   |-- ecdf_total_assets.png
+|   |   |-- eda_boxplots_by_year_group.png
+|   |   |-- ks_ecdf_gap.png
+|   |   |-- ks_statistic_by_year.png
+|   |   |-- median_difference_confidence_intervals.png
+|   |   `-- median_line_charts(log).png
+|   `-- tables/                 # Report-ready statistical tables
+|       `-- descriptive_statistics.csv
+|
+|-- requirements.txt            # Python package requirements
+|-- AI_USAGE.md                 # Declaration of generative-AI use
+|-- CONTRIBUTIONS.md            # Group-member contributions
+|-- .gitignore
+`-- README.md
 ```
 
 ## Running the project
@@ -100,7 +113,7 @@ The project produces:
    ```
 
 3. Place the raw dataset in `data/raw/`.
-4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create processed results.
+4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create the processed data and output files described above.
 
 ## Data availability
 
