@@ -1,6 +1,2 @@
 # AI USAGE
-We acknowledge the use of [GenAI tool(s) and link(s)] to [specify how GenAI was used].
-The types of prompts used included [briefly summarise the prompts]. The outputs were
-used to [explain how they informed, supported, or contributed to the work]. We reviewed,
-modified, and verified the outputs as appropriate and remain responsible for the final
-content, analysis, code, and conclusions submitted as part of this proje
+We acknowledge the use of OpenAI Codex (https://openai.com/codex/) to support the development and refinement of Python code for the project. The types of prompts used included requests for assistance with generating and refining code for statistical tests, bootstrap confidence intervals, and data-driven charts and figures. The outputs were used as coding suggestions to support the implementation of the planned analysis and visualisations. We reviewed, modified, tested, and verified the outputs as appropriate and remain responsible for the final content, analysis, code, and conclusions submitted as part of this project.
