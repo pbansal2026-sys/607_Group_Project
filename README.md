@@ -115,8 +115,18 @@ The project produces:
    pip install -r requirements.txt
    ```
 
-3. Place the raw dataset in `data/raw/`.
-4. Run `notebooks/Wrangle_&_Tests.ipynb` to clean the data, run the statistical tests, and create the processed data and output files described above.
+3. Create the required data and output folders. The notebook does not create them automatically:
+
+   ```text
+   data/raw/
+   data/processed/
+   outputs/figures/
+   outputs/tables/
+   ```
+
+4. Obtain the licensed ORBIS dataset separately and save the required input file as `data/raw/data_million_.xlsx`.
+5. Open `notebooks/Wrangle_&_Tests.ipynb` and run all cells in order. Because the notebook uses paths relative to the notebook directory, set `notebooks/` as the working directory when executing it.
+6. The notebook creates the processed data and output files described above.
 
 ## Data availability
 
@@ -124,7 +134,12 @@ The `data/raw/` and `data/processed/` folders are excluded from Git. This is to 
 
 ## Reproducibility
 
-Bootstrap resampling uses a fixed random seed so that results can be reproduced when the same input data and code are used.
+For reproducible results:
+
+- Use the same `data/raw/data_million_.xlsx` input file.
+- Run all notebook cells in order from the `notebooks/` working directory.
+- Bootstrap resampling uses 10,000 replications and the fixed random seed `2026`.
+- The raw ORBIS data is licensed and is not included in this repository.
 
 ## AI use and contributions
 
