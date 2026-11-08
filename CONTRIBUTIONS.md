@@ -18,3 +18,7 @@ The contributions below outline each member’s main contributions, but the proj
 - Generated the project’s analytical figures, including empirical cumulative distribution function (ECDF) curves, annual median plots, and public-private median-difference plots with bootstrap confidence intervals.
 
 ### Nehantha Sathesh
+- Contributed to the collection of firm-level financial data from the Orbis database.
+- Provided analytical support throughout the project, contributing to discussions on the statistical methods, interpretation of results, and overall analytical approach.
+- Reviewed and tested project code to identify errors, improve consistency, and ensure the analyses were implemented correctly.
+- Contributed to preparing and structuring the final presentation, including organising the key findings and communicating the project's results.
