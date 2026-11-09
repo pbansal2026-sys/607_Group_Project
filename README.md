@@ -153,4 +153,4 @@ See [AI_USAGE.md](AI_USAGE.md) for the group’s generative-AI declaration and [
 
 ## Acknowledgement 
 
-This project is a part of SMU's Master of Data SCience in Economics (MDSE) degree program module DS607 (Statistics for Data Science).
+This project is a part of SMU's Master of Data Science in Economics (MDSE) degree program module DS607 (Statistics for Data Science).
