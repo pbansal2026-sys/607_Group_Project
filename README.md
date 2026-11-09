@@ -1,6 +1,6 @@
 # Public vs Private Firm Size in Singapore
 
-A DS607: Data Science for Economics group project comparing the financial size of publicly listed and privately held Singaporean companies from 2021 to 2025.
+Data Science for Economics group project comparing the financial size of publicly listed and privately held Singaporean companies from 2021 to 2025.
 
 ## Project motivation
 
@@ -150,3 +150,7 @@ For reproducible results:
 ## AI use and contributions
 
 See [AI_USAGE.md](AI_USAGE.md) for the group’s generative-AI declaration and [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for individual contributions.
+
+## Acknowledgement 
+
+This project is a part of SMU's Master of Data SCience in Economics (MDSE) degree program module DS607 (Statistics for Data Science).
